@@ -1,0 +1,48 @@
+name: kanban-hq
+label: Kanban HQ
+description: "Task-board-first theme with compact columns, readable cards, and strong status colors."
+palette:
+  background: { hex: "#0b1020", alpha: 1 }
+  midground: { hex: "#f8fafc", alpha: 1 }
+  foreground: { hex: "#ffffff", alpha: 0 }
+  warmGlow: "rgba(47, 109, 246, 0.06)"
+  noiseOpacity: 0
+typography:
+  fontSans: '"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif'
+  fontMono: '"JetBrains Mono", ui-monospace, "SF Mono", monospace'
+  fontUrl: "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  baseSize: "15.8px"
+  lineHeight: "1.55"
+  letterSpacing: "0"
+layout:
+  radius: ".55rem"
+  density: compact
+layoutVariant: tiled
+colorOverrides:
+  card: "#121a2c"
+  cardForeground: "#f8fafc"
+  popover: "#121a2c"
+  popoverForeground: "#f8fafc"
+  primary: "#3b82f6"
+  primaryForeground: "#ffffff"
+  secondary: "#1d2a44"
+  secondaryForeground: "#f8fafc"
+  muted: "#172238"
+  mutedForeground: "#c7d2e2"
+  accent: "#122f55"
+  accentForeground: "#dbeafe"
+  destructive: "#f43f5e"
+  destructiveForeground: "#ffffff"
+  success: "#22c55e"
+  warning: "#f59e0b"
+  border: "#3b4d68"
+  input: "#3b4d68"
+  ring: "#3b82f6"
+customCSS: |
+      :root { color-scheme: dark; }
+      * { text-shadow: none !important; }
+      [class*="noise"], [class*="glow"], [class*="aurora"] { opacity: 0 !important; }
+      [class*="kanban"], [class*="board"] { gap: .55rem !important; }
+      [class*="card"], section { padding: .75rem !important; }
+      aside, [class*="sidebar"] { min-width: 300px !important; }
+      nav a { min-height: 42px !important; font-size: 1rem !important; }

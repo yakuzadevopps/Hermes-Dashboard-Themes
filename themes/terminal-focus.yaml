@@ -1,0 +1,50 @@
+name: terminal-focus
+label: Terminal Focus
+description: "Ultra-focused black terminal layout with enlarged logs, hard borders, and no decorative visual effects."
+palette:
+  background: { hex: "#000000", alpha: 1 }
+  midground: { hex: "#ffffff", alpha: 1 }
+  foreground: { hex: "#ffffff", alpha: 0 }
+  warmGlow: "rgba(47, 109, 246, 0.08)"
+  noiseOpacity: 0
+typography:
+  fontSans: '"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif'
+  fontMono: '"JetBrains Mono", ui-monospace, "SF Mono", monospace'
+  fontUrl: "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  baseSize: "16px"
+  lineHeight: "1.68"
+  letterSpacing: "0"
+layout:
+  radius: "0.25rem"
+  density: comfortable
+layoutVariant: cockpit
+colorOverrides:
+  card: "#0c0c0c"
+  cardForeground: "#ffffff"
+  popover: "#0c0c0c"
+  popoverForeground: "#ffffff"
+  primary: "#3b82f6"
+  primaryForeground: "#ffffff"
+  secondary: "#1f1f1f"
+  secondaryForeground: "#ffffff"
+  muted: "#181818"
+  mutedForeground: "#d7d7d7"
+  accent: "#082f49"
+  accentForeground: "#e0f2fe"
+  destructive: "#ef4444"
+  destructiveForeground: "#ffffff"
+  success: "#22c55e"
+  warning: "#f59e0b"
+  border: "#666666"
+  input: "#888888"
+  ring: "#3b82f6"
+customCSS: |
+  :root { color-scheme: dark; }
+  * { text-shadow: none !important; }
+  [class*="noise"], [class*="glow"], [class*="aurora"] { opacity: 0 !important; }
+  :focus-visible { outline: 3px solid var(--ring) !important; outline-offset: 3px !important; }
+  a:hover, button:hover { filter: brightness(1.12); }
+  main { padding: .5rem !important; }
+  nav a { padding-block: .35rem !important; }
+  pre, code, table { font-size: 14px !important; }
+
