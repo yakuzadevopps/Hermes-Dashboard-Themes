@@ -6,10 +6,29 @@ These themes are designed for long dashboard sessions: strong contrast, normal l
 
 ## Included themes
 
-- **Terminal Focus** — black technical focus mode with enlarged code/log readability and minimal decoration.
-- **High Contrast Clean XL** — accessibility-first black/charcoal theme with larger controls and text.
-- **Obsidian XL** — large dark command layout with bigger targets and comfortable spacing.
-- **Kanban HQ** — task-board-first dark theme with compact columns, readable cards, and strong status colors.
+### Terminal Focus
+
+Black technical focus mode with enlarged code/log readability and minimal decoration.
+
+![Terminal Focus screenshot](assets/terminal-focus.png)
+
+### High Contrast Clean XL
+
+Accessibility-first black/charcoal theme with larger controls and text.
+
+![High Contrast Clean XL screenshot](assets/high-contrast-clean-xl.png)
+
+### Obsidian XL
+
+Large dark command layout with bigger targets and comfortable spacing.
+
+![Obsidian XL screenshot](assets/obsidian-xl.png)
+
+### Kanban HQ
+
+Task-board-first dark theme with compact columns, readable cards, and strong status colors.
+
+![Kanban HQ screenshot](assets/kanban-hq.png)
 
 ## Install
 
