@@ -30,6 +30,30 @@ Task-board-first dark theme with compact columns, readable cards, and strong sta
 
 ![Kanban HQ screenshot](assets/kanban-hq.png)
 
+### Hinokami Night
+
+Demon Slayer-inspired night-patrol palette: charcoal indigo surfaces, flame red-orange accents, water-blue status cues, and blade-cut panel geometry.
+
+![Hinokami Night screenshot](assets/hinokami-night.png)
+
+### Shadow Monarch
+
+Solo Leveling-inspired monarch palette: obsidian dashboard surfaces, violet-blue shadow glow, icy cyan status highlights, and controlled high-pressure contrast.
+
+![Shadow Monarch screenshot](assets/shadow-monarch.png)
+
+### Shinigami Ledger
+
+Death Note-inspired ledger palette: black notebook surfaces, paper-white text, crimson judgment accents, and stark square-edged panels.
+
+![Shinigami Ledger screenshot](assets/shinigami-ledger.png)
+
+### Codex Desktop Noir
+
+Codex Desktop-inspired noir palette: graphite-black canvas, compact technical spacing, blue-green command accents, and subtle grid/HUD styling.
+
+![Codex Desktop Noir screenshot](assets/codex-desktop-noir.png)
+
 ## Install
 
 Copy the YAML files into your Hermes dashboard themes directory:

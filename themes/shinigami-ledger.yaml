@@ -1,0 +1,120 @@
+name: shinigami-ledger
+label: Shinigami Ledger
+description: "Death Note-inspired black ledger theme: paper-white text, crimson judgment accents, stark notebook panels."
+palette:
+  background: { hex: "#050505", alpha: 1 }
+  midground: { hex: "#f4f1e8", alpha: 1 }
+  foreground: { hex: "#ffffff", alpha: 0 }
+  warmGlow: "rgba(185, 28, 28, 0.18)"
+  noiseOpacity: 0.03
+typography:
+  fontSans: '"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif'
+  fontMono: '"JetBrains Mono", ui-monospace, "SF Mono", monospace'
+  fontDisplay: '"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif'
+  fontUrl: "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  baseSize: "16px"
+  lineHeight: "1.62"
+  letterSpacing: "0"
+layout:
+  radius: "0.18rem"
+  density: comfortable
+layoutVariant: standard
+assets:
+  bg: 'url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20680%22%3E%3Crect%20width=%221200%22%20height=%22680%22%20fill=%22#050505%22/%3E%3CradialGradient%20id=%22g%22%20cx=%2220%%22%20cy=%2215%%22%3E%3Cstop%20stop-color=%22#b91c1c%22%20stop-opacity=%22.22%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22#050505%22%20stop-opacity=%220%22/%3E%3C/radialGradient%3E%3Crect%20width=%221200%22%20height=%22680%22%20fill=%22url(#g)%22/%3E%3Cpath%20d=%22M140%2050%20H980%20V630%20H140Z%22%20fill=%22none%22%20stroke=%22#e7dfce%22%20stroke-opacity=%22.12%22%20stroke-width=%222%22/%3E%3Cpath%20d=%22M210%20150%20H900%20M210%20210%20H760%20M210%20270%20H850%20M210%20330%20H700%20M210%20390%20H840%22%20stroke=%22#b91c1c%22%20stroke-opacity=%22.12%22%20stroke-width=%223%22/%3E%3Ccircle%20cx=%22980%22%20cy=%22120%22%20r=%2242%22%20fill=%22#b91c1c%22%20fill-opacity=%22.18%22/%3E%3C/svg%3E")'
+  logo: 'url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2084%2084%22%3E%3Crect%20width=%2284%22%20height=%2284%22%20rx=%2220%22%20fill=%22black%22%20fill-opacity=%22.20%22/%3E%3Cpath%20d=%22M42%204%20L75%2023%20V61%20L42%2080%20L9%2061%20V23Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-opacity=%22.85%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M16%2040%20C30%2024%2054%2024%2068%2040%20C54%2056%2030%2056%2016%2040Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-width=%224%22/%3E%3Ccircle%20cx=%2242%22%20cy=%2240%22%20r=%229%22%20fill=%22#e7dfce%22/%3E%3C/svg%3E")'
+  crest: 'url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2084%2084%22%3E%3Crect%20width=%2284%22%20height=%2284%22%20rx=%2220%22%20fill=%22black%22%20fill-opacity=%22.20%22/%3E%3Cpath%20d=%22M42%204%20L75%2023%20V61%20L42%2080%20L9%2061%20V23Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-opacity=%22.85%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M16%2040%20C30%2024%2054%2024%2068%2040%20C54%2056%2030%2056%2016%2040Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-width=%224%22/%3E%3Ccircle%20cx=%2242%22%20cy=%2240%22%20r=%229%22%20fill=%22#e7dfce%22/%3E%3C/svg%3E")'
+  hero: 'url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2084%2084%22%3E%3Crect%20width=%2284%22%20height=%2284%22%20rx=%2220%22%20fill=%22black%22%20fill-opacity=%22.20%22/%3E%3Cpath%20d=%22M42%204%20L75%2023%20V61%20L42%2080%20L9%2061%20V23Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-opacity=%22.85%22%20stroke-width=%223%22/%3E%3Cpath%20d=%22M16%2040%20C30%2024%2054%2024%2068%2040%20C54%2056%2030%2056%2016%2040Z%22%20fill=%22none%22%20stroke=%22#b91c1c%22%20stroke-width=%224%22/%3E%3Ccircle%20cx=%2242%22%20cy=%2240%22%20r=%229%22%20fill=%22#e7dfce%22/%3E%3C/svg%3E")'
+componentStyles:
+  card:
+    background: "linear-gradient(180deg, color-mix(in srgb, var(--color-card) 92%, transparent), color-mix(in srgb, var(--color-card) 68%, transparent))"
+    border: "1px solid color-mix(in srgb, var(--color-primary) 24%, var(--color-border))"
+    boxShadow: "0 0 0 1px color-mix(in srgb, white 4%, transparent) inset, 0 18px 60px -46px var(--color-primary)"
+  sidebar:
+    background: "linear-gradient(180deg, color-mix(in srgb, var(--color-card) 92%, black), color-mix(in srgb, var(--color-background) 96%, black))"
+  header:
+    background: "linear-gradient(90deg, color-mix(in srgb, var(--color-card) 92%, black), color-mix(in srgb, var(--color-primary) 10%, var(--color-card)))"
+  tab:
+    clipPath: "var(--theme-tab-clip, none)"
+  backdrop:
+    fillerBlendMode: "screen"
+    fillerOpacity: "0.20"
+    backgroundSize: "cover"
+    backgroundPosition: "center"
+colorOverrides:
+  card: "#0d0d0d"
+  cardForeground: "#f4f1e8"
+  popover: "#151313"
+  popoverForeground: "#f4f1e8"
+  primary: "#b91c1c"
+  primaryForeground: "#ffffff"
+  secondary: "#e7dfce"
+  secondaryForeground: "#f4f1e8"
+  muted: "#151515"
+  mutedForeground: "#bdb7ad"
+  accent: "#251111"
+  accentForeground: "#f4f1e8"
+  destructive: "#dc2626"
+  destructiveForeground: "#fff7f7"
+  success: "#7aa874"
+  warning: "#c9a34e"
+  border: "#3f3f46"
+  input: "#3f3f46"
+  ring: "#b91c1c"
+customCSS: |
+
+  :root { color-scheme: dark; }
+  body { text-rendering: optimizeLegibility; }
+  * { text-shadow: none !important; }
+  [class*="noise"] { opacity: var(--theme-noise-opacity, 0.12) !important; }
+  [class*="glow"], [class*="aurora"] { opacity: 0.38 !important; filter: blur(42px) saturate(0.9) !important; }
+
+  /* Theme-pack chrome: crest, icon badges, HUD cards, and layout rhythm. */
+  aside { width: var(--theme-sidebar-width, 18rem) !important; box-shadow: var(--theme-sidebar-shadow, none); }
+  aside > div:first-child { min-height: 4.8rem; padding-inline: 1rem; position: relative; }
+  aside > div:first-child::before {
+    content: "";
+    width: 2.65rem;
+    height: 2.65rem;
+    flex: 0 0 auto;
+    display: block;
+    margin-right: .65rem;
+    background-image: var(--theme-asset-logo);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 0 18px color-mix(in srgb, var(--color-primary) 45%, transparent));
+  }
+  nav a svg, aside button svg {
+    box-sizing: content-box;
+    padding: .36rem;
+    border: 1px solid color-mix(in srgb, var(--color-primary) 48%, transparent);
+    border-radius: var(--theme-icon-radius, .75rem);
+    background: var(--theme-icon-bg, color-mix(in srgb, var(--color-primary) 13%, transparent));
+    color: var(--color-primary);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, white 7%, transparent), 0 0 18px color-mix(in srgb, var(--color-primary) 16%, transparent);
+  }
+  nav a[aria-current="page"] svg {
+    color: var(--color-primary-foreground);
+    background: var(--theme-active-icon-bg, linear-gradient(135deg, var(--color-primary), color-mix(in srgb, var(--color-primary) 40%, black)));
+    border-color: color-mix(in srgb, var(--color-primary) 80%, white 10%);
+  }
+  nav a {
+    margin: .14rem .65rem;
+    border: 1px solid transparent;
+    border-radius: var(--theme-nav-radius, .8rem);
+  }
+  nav a[aria-current="page"] {
+    background: var(--theme-active-nav-bg, color-mix(in srgb, var(--color-primary) 14%, transparent));
+    border-color: color-mix(in srgb, var(--color-primary) 32%, transparent);
+  }
+  main, [data-layout-variant] .relative.z-2 { background-image: var(--theme-page-watermark); background-repeat: no-repeat; background-position: right 2rem bottom 1.4rem; background-size: min(38vw, 26rem); }
+  .bg-card, [class*="bg-card"] { backdrop-filter: blur(14px); }
+  button, input, textarea, select { min-height: 2.45rem; }
+  [role="button"], button { transition: border-color 120ms ease, background-color 120ms ease, transform 120ms ease; }
+  [role="button"]:hover, button:hover { transform: translateY(-1px); }
+  @media (min-width: 1024px) {
+    [data-layout-variant="cockpit"] .relative.z-2 { padding-inline: 2rem !important; }
+    [data-layout-variant="tiled"] .relative.z-2 { padding-inline: 1.1rem !important; }
+  }
+  :root { --theme-sidebar-width: 17.25rem; --theme-icon-radius: .15rem; --theme-nav-radius: .15rem; }
+  .bg-card, [class*="bg-card"] { background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px); background-size: 100% 2rem; }
